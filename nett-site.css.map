@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,GAAG;EACF,KAAK,EAAE,IAAI",
+"mappings": "AAAA,YAAY;EACX,QAAQ,EAAE,QAAQ;EAClB,YAAY,EAAE,IAAI",
 "sources": ["nett-site.sass"],
 "names": [],
 "file": "nett-site.css"
