@@ -12,21 +12,57 @@
 
 ?>
 
-<nav class="navbar mr navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Pricing</a>
-      <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">123-456-7890</a>
-    </div>
-  </div>
-</nav>
+<!-- NAVIGATION -->
+<section>
+	<nav class="navigation nav flex-column">
+	 	<a class="nav-link active" href="#">Active</a>
+	 	<a class="nav-link" href="#">Link</a>
+	 	<a class="nav-link" href="#">Link</a>
+	 	<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+	</nav>
 
-	<h1 class="title__name">NETT-SITE</h1>
-	<p>Consulting</br>Lorem Ipsum Dolor</br>Lorem Ipsum Dolor</br>Lorem Ipsum Dolor</p>
+	<nav class="top-navbar navbar mr navbar-expand-lg navbar-light bg-light">
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    <div class="navbar-nav ml-auto">
+	      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+	      <a class="nav-item nav-link" href="#">Pricing</a>
+	      <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">123-456-7890</a>
+	    </div>
+	  </div>
+	</nav>	
+</section>
+
+<div class="header header--container">
+	<h1 class="header__title">NETT-SITE</h1>
+	<p class="header__description">Consulting</br>Lorem Ipsum Dolor</br>Lorem Ipsum Dolor</br>Lorem Ipsum Dolor</p>	
+</div>
+
+<!-- SERVICE CARDS -->
+<section>
+	<div class="card-group">
+	 	<div class="card">
+	    	<div class="card-body">
+	      		<h5 class="card-title">Card title</h5>
+	      		<p class="card-text"></p>
+	    	</div>
+	  	</div>
+		<div class="card">
+	    	<div class="card-body">
+	      		<h5 class="card-title">Card title</h5>
+	      		<p class="card-text"></p>
+	    	</div>
+	  	</div>
+	  	<div class="card">
+	    	<div class="card-body">
+	      		<h5 class="card-title">Card title</h5>
+	      		<p class="card-text"></p>
+	    	</div>
+		</div>
+	</div>
+</section>
 
 <section>
 	<!-- BOOTSTRAP -->	

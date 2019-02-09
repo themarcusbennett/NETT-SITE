@@ -1,5 +1,17 @@
-.title__name {
-  position: relative;
-  padding-left: 50px; }
+.navigation {
+  transform: translateY(100px);
+  z-index: 100;
+  position: absolute; }
+
+.header {
+  width: 100%; }
+  .header .header__title {
+    position: relative;
+    transform: translate(20%); }
+  .header .header__description {
+    transform: translateX(30%); }
+
+.card-group {
+  width: 40%; }
 
 /*# sourceMappingURL=nett-site.css.map */
